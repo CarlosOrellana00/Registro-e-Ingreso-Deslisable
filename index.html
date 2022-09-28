@@ -5,10 +5,70 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Registro e Ingreso Deslisable</title>
+  <link rel="shortcut icon" href="img/icon.png">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="form">
+
+    <div class="back">
+      <div>
+        <h2>No tienes una cuenta?</h2>
+        <p>Crea una cuenta para poder acceder</p>
+        <button id="show-signup-form">
+          Registrate
+        </button>
+      </div>
+      <div>
+        <h2>Tienes una cuenta?</h2>
+        <p>Entra para poder acceder</p>
+        <button id="show-signin-form">
+          Entra a tu cuenta
+        </button>
+      </div>
+    </div>
+
+    <div class="front">
+      <div class="signin">
+        <div class="title">
+          Ingresar
+        </div>
+        <div class="form-element">
+          <i class="fa fa-envelope"></i>
+          <input type="text" placeholder="Email">
+        </div>
+        <div class="form-element">
+          <i class="fa fa-key"></i>
+          <input type="password" placeholder="Password">
+        </div>
+        <div class="form-element">
+          <button>Ingresar</button>
+        </div>
+        <div class="form-element">
+          <a href="#">Forgot password?</a>
+        </div>
+      </div>
+      <div class="signup">
+        <div class="title">
+          Registrate
+        </div>
+        <div class="form-element">
+          <i class="fa fa-user"></i>
+          <input type="text" placeholder="Nombre de Usuario">
+        </div>
+        <div class="form-element">
+          <i class="fa fa-envelope"></i>
+          <input type="text" placeholder="Email">
+        </div>
+        <div class="form-element">
+          <i class="fa fa-key"></i>
+          <input type="password" placeholder="Contraseña">
+        </div>
+        <div class="form-element">
+          <button>Registrarse</button>
+        </div>
+      </div>
+    </div>
 
   </div>
   <script src="effect.js"></script>
